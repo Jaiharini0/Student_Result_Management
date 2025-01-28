@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../PROJECT/background/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+ }
+ .logo{
+    font-size: 2em;
+    color: #162938;
+    user-select: none;
+ }
+
+ .wrapper{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    transition: transform .5s ease,height .2s ease;
+  }
+
+  .wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+   }
+
+.main-content-header h1{
+    font-size: 2em;
+    color:#162938;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table1 th{
+    color: black;
+    font-size: 1em;
+    padding-left: .5em;
+}
+.box{
+    height: 1.8rem;
+    margin-bottom: 10px;
+    width: 11rem;
+}
+.btn{
+    width: 65%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+ 
+  .btn a{
+  text-decoration: none;
+  color: #fff;
+  }
+
+
+
+

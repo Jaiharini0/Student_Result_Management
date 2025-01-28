@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("../PROJECT/background/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wrapper{
+    position: relative;
+    width: 1200px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform .5s ease,height .2s ease;
+  }
+
+  .wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: #162938;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+   }
+
+  
+  .table{
+    margin-left:650px;
+}
+.search{
+    margin-left:670px;
+    margin-top:20px;
+}
+.name1{
+    padding-right: 5px;
+}
+.standered1{
+   padding-right: 15px;
+}
+
+h2{
+    margin-top: 55px;
+    text-align: center;
+    color: #162938;
+    font-weight: bolder;
+}
+.table1{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.table1 th{
+    font-size: 1em;
+    text-align: left;
+    color: #162938;
+}
+.box{
+    height: 1.8rem;
+    width: 18rem;
+}
+.table2{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.table2 th{
+    font-size: 1em;
+    text-align: left;
+    color: #162938
+}
+
+.table4{
+    margin-top: 5px;
+    margin-left: 770px;
+}
+
+.btn{
+    width: 150%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+ 
+  .btn a{
+  text-decoration: none;
+  color: #fff;
+  }
+  
+  .table3{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.table3{
+    margin-top: 30px;
+    
+}
+.table3 th{
+    font-size: 1.5em;
+    text-align: left;
+    color:#162938
+}

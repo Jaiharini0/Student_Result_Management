@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("./background/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
+ header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+ }
+
+ 
+ .logo{
+    font-size: 2em;
+    color: #162938;
+    user-select: none;
+ }
+
+ .navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 40px;
+    transition: .5s;
+ }
+ 
+ .btnLogin-popup:hover{
+    background-color: #fff;
+ }
+ 
+ .btnLogin-popup a{
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .btnLogin-popup a:hover{
+    color: black;
+  }
+ 
+   .table{
+    margin-left:100px;
+    margin-top: 0px;
+    float:center;    
+}
+.table tr{
+    font-size:20px;
+    margin-left: 330px;
+    margin-top: 0px;
+}
+.image2{
+    width:80px;
+    height:100px;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+.table2 th{
+    border-top: 1px solid transparent;
+    width: 6%;
+    font-size: 19px;
+   
+}
+h1{
+    margin-left: 490px;
+}
+.table2{
+    margin-top: 5px;
+    border-top: 3px dashed black;
+    border-bottom: 3px dashed black;
+    
+}
+.colorchange{
+    animation: colorchange 2s infinite;
+    font-size: 20px;
+    
+}
+@keyframes colorchange{
+    0%{color:#cc0066;}
+    25%{color:#0000ff;}
+    75%{color:#cc0066;}
+    100%{color: #0000ff;}
+}
+.colorchange1{
+    animation: colorchange1 2s infinite;
+    font-size: 44px;
+    
+}
+@keyframes colorchange1{
+    0%{color:red;}
+    25%{color:green;}
+    75%{color:#009900}
+    100%{color:#ff6600;}
+}
+p{
+    margin-top: 5px;
+    
+}

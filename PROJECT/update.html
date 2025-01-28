@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible"content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>STUDENT DETAILS</title>
+
+   <link  href="update.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h2 class="logo">SEARCH STUDENT AND UPDATE MARK</h2>
+     </header>
+     <div  class="wrapper" >
+      <span class="icon-close"><ion-icon name="close"></ion-icon>
+      </span>
+    <div class="main-content-header">
+            <form method="post" action="updatemark.php">
+            <table class="table1">
+              <h1>Enter the details</h1>
+                <tr >
+                <th>Enter Department : </th>
+                <td><input type="text" name="class" class="box"/></td>
+                </tr>
+                <tr>
+                <th>Student Register.No : </th>
+                <td><input type="text" name="rollno" class="box"/></td>   
+                </tr>
+                <tr >
+                <th><button type="submit" value="Search" name="submit" class="btn">Search</a></button>
+                </th>
+                </tr>
+                      </table>
+            </form>
+    </div>
+    </div>
+    <script src="script.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
